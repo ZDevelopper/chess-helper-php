@@ -1,15 +1,6 @@
 <?php
 
-include('./Class/Grid.php');
-include('./Class/Piece.php');
-include('./Class/Pawn.php');
-include('./Class/Bishop.php');
-include('./Class/King.php');
-include('./Class/Knight.php');
-include('./Class/Queen.php');
-include('./Class/Rook.php');
-
-
+include('./autoload/autoload.php');
 
 echo 'Pion:' . PHP_EOL;
 $piece = new PawnMoves('C3');
